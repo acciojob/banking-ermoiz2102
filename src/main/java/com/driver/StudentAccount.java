@@ -16,7 +16,7 @@ public class StudentAccount extends BankAccount{
         //minimum balance is 0 by default
            super(name,balance);
            this.institutionName=institutionName;
-//           setMinBalance(0);
+              setMinBalance(0);
     }
 
 }
