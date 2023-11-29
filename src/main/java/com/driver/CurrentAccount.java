@@ -36,6 +36,7 @@ public class CurrentAccount extends BankAccount{
        if(str=="")
            throw new exceptions("Valid License can not be generated");
 
+       this.tradeLicenseId=str;
     }
 
 }
